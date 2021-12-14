@@ -21,7 +21,7 @@ function greeting() {
     theNames.splice(2, 0, "I am learning");
     theNames.splice(3, 2, "HTML/CSS");
 // these are ways to insert items at a specific index location
-// the first value is the start point, the second value is the item you want to delete (if any)
+// the first value is the start point, the second value is the item you want to delete (if any) from that start value
     return (`Hello my name is ${theNames.join(' ')}. The date is ${today.join('-')}!`);
 }
 
